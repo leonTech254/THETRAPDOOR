@@ -33,8 +33,10 @@ public class Dashboard extends AppCompatActivity {
     {
         gridView = findViewById(R.id.gridView);
         CardItem[] cardItems = {
-                new CardItem(R.drawable.ic_launcher_foreground, "Card 1", "Description 1"),
-                new CardItem(R.drawable.ic_launcher_foreground, "Card 2", "Description 2"),
+                new CardItem(R.drawable.ic_launcher_foreground, "About", "Description 1"),
+                new CardItem(R.drawable.ic_launcher_foreground, "Set Backdoor", "Description 2"),
+                new CardItem(R.drawable.ic_launcher_foreground, "Stop Backdoor", "Description 2"),
+                new CardItem(R.drawable.ic_launcher_foreground, "Uninstall", "Description 2"),
                 // Add more card items as needed
         };
 
