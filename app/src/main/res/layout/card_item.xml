@@ -16,6 +16,7 @@
         android:padding="16dp">
 
         <ImageView
+            android:id="@+id/cardIcon"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:src="@drawable/ic_launcher_foreground"
@@ -35,6 +36,7 @@
         />
 
         <TextView
+            android:id="@+id/cardDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Card Description"
