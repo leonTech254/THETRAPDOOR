@@ -17,7 +17,6 @@ public class CardAdapter extends ArrayAdapter<CardItem> {
 
     private final Context context;
     private final CardItem[] cardItems;
-    private int lastClickedPosition = -1;
 
     public CardAdapter(Context context, CardItem[] cardItems) {
         super(context, R.layout.card_item, cardItems);
